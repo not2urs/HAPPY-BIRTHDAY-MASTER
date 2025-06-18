@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    background-image: url('assets/giphy.gif');
+   
+
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #d63384;
+}
+
+.gallery img {
+    width: 500px;
+    height: 800px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #e055a3;
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    color: #e0cece;
+}
